@@ -35,7 +35,7 @@
     "rxjs": "6.5.2",
     "tslib": "^1.9.0",
     "zone.js": "^0.8.26",
-    "concurrently": "^4.1.2",
+    "concurrently": "^4.1.2"
 
   },
   "devDependencies": {
