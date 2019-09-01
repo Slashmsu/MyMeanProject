@@ -10,7 +10,7 @@
     "e2e": "ng e2e",
     "start:server": "nodemon ./backend/server.js",
     "dev": "concurrently \"npm run start:server\" \"npm run start\"",
-    "postinstall": "ng build --output-path dist"
+    "postinstall": "node ./backend/server.js"
   },
   "private": true,
   "dependencies": {
