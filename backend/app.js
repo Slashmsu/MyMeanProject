@@ -19,9 +19,7 @@ mongoose
   });
 
 app.use(bodyParser.json());
-// Create link to Angular build directory
-var distDir = __dirname + "/dist/";
-app.use(express.static(distDir));
+
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use("/images", express.static(path.join("backend/images")));
 
